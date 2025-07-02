@@ -6,7 +6,7 @@ def example1():
     some_variable={'long':'Long code lines should be wrapped within 79 characters.',
     'other':[math.pi, 100,200,300,9876543210,'This is a long string that goes on'],
     'more':{'inner':'This whole logical line should be wrapped.',some_tuple:[1,
-    20,300,400000,5000000000,6000000000000000]}}
+    20,300,400000,50000000000,6000000000000000]}}
     return (some_tuple, some_variable)
 def example2(): return {'has_key() is deprecated':True}.has_key({'f':2}.has_key(''));
 class Example3(   object ):
