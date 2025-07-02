@@ -6,7 +6,7 @@ def example1():
     some_variable={'long':'Long code lines should be wrapped within 79 characters.',
     'other':[math.pi, 100,200,300,9876543210,'This is a long string that goes on'],
     'more':{'inner':'This whole logical line should be wrapped.',some_tuple:[1,
-    20,300,4000,5000000,60000000000000000]}}
+    20,300,40000,500000000,60000000000000000]}}
     return (some_tuple, some_variable)
 def example2(): return {'has_key() is deprecated':True}.has_key({'f':2}.has_key(''));
 class Example3(   object ):
@@ -18,4 +18,4 @@ class Example3(   object ):
                        Indentation in multiline strings should not be touched.
 Only actual code should be reindented.
 """
-                  return (sys.path, some_string)
+                    return (sys.path, some_string)
