@@ -8,4 +8,4 @@ title: "ソフトウェア工学 2025"
 
 #ソフトウェア工学 2025
 
-git/github演習
+git/github演習 1
